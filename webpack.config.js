@@ -4,7 +4,7 @@ const nodeExternals = require('webpack-node-externals');
 module.exports = [
   // Server-side configuration
   {
-    entry: './server.js',
+    entry: './server.jsx',
     target: 'node', // Compiles for node.js environment
     externals: [nodeExternals()], // Excludes node_modules from the server bundle
     output: {
